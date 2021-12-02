@@ -1,5 +1,5 @@
 const input = require("./input.json");
-const { verify } = require("./common.js");
+const { verify } = require("../common.js");
 
 const nbrLargerThanPrev = (values) =>
   values.filter((v, i) => i > 0 && v > values[i - 1]).length;

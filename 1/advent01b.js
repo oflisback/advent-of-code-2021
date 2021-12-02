@@ -1,5 +1,5 @@
 const input = require("./input.json");
-const { verify } = require("./common.js");
+const { verify } = require("../common.js");
 const { nbrLargerThanPrev } = require("./advent01a.js");
 
 const slidingThreeSums = (values) =>
